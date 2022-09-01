@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de" ng-app="pinwall">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mindshare</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular.min.js"></script>
+        <script type="text/javascript" src="script/ngTouch.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+        <script src="script/jquery-3.3.1.min.js"></script>
+        <script src="script/gsap/TweenMax.min.js"></script>
+        <script src="script/gsap/TimelineMax.min.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyCQTUgfOpvzCGUnrasgXEAe-W0lCetmmUg",
+                authDomain: "pinwall-29367.firebaseapp.com",
+                databaseURL: "https://pinwall-29367.firebaseio.com",
+                projectId: "pinwall-29367",
+                storageBucket: "",
+                messagingSenderId: "51818812553"
+            };
+            firebase.initializeApp(config);
+        </script>
+        <script src="script/sendFirebase.js"></script>
+        <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    </head>
+
+
+    <body id="control_panel" ng-controller="commentController">
+
+
+        <div id="intro_overlay">
+            <div id="intro__container">
+
+                <div id="sceneElement" class="intro___logo"></div>
+                <div class="intro___button custom_button mt_shadow_2">
+
+                    <div class="button_text">Start</div>
+                    <div class="button_circle color1">
+                       <img src="assets/icons/next.png" alt="">
+                    </div>     
+
+                </div>
+
+            </div>     
+        </div>
+
+        <div id="chat_topbar" class="mt_shadow_2 color1">
+
+            <div class="chat__topbar_logo mt_shadow_2"></div>
+            <div class="chat__topbar_name">Mindshare</div>
+            <div class="chat__topbar_status">online</div>
+            <div class="chat__topbar_menu">
+
+                <img src="assets/icons/menu_dots.png" alt=""/>
+                <div class="menu_question">?</div>
+
+            </div>
+
+        </div>
+
+        <div id="chat_overlay">
+
+                <div class="chat__speechbubble_container">
+
+
+                </div>
+                <div class="chat__writebar">
+
+                    <div class="chat___writebar_input mt_shadow_1">Schreibe jetzt noch KEINE Nachricht...</div>
+                    <div class="chat___writebar_send_button color1 mt_shadow_1">
+
+                        <img src="assets/icons/next.png" alt="" />
+
+                    </div>
+
+                </div>
+
+        </div>
+
+        <div id="comment_overlay">
+            
+                <div class="comment__area_question">Welche Gefahren birgt Augmented Reality ?</div>
+
+            <div class="comment__area_title">Gebe hier deine Antwort ein</div>
+
+            <div class="comment__textarea">
+                    <input type="text" class="mt_shadow_2" maxlength="30" ng-model="commentText">
+            </div>
+
+            <div class="comment__circle_title">Wähle eine Farbe</div>
+
+            <div class="comment__circles">
+
+                <div id="circle_blau" class="circle gr_blau mt_shadow_2" onclick="colorChooser(this)"></div>
+                <div id="circle_blau2" class="circle gr_blau2 mt_shadow_2" onclick="colorChooser(this)"></div>
+                <div id="circle_blau3" class="circle gr_blau3 mt_shadow_2" onclick="colorChooser(this)"></div>
+
+            </div>
+
+            <div id="sendButton" class="comment__button custom_button mt_shadow_2">
+                <!--ng-click="send()"-->
+
+                    <div class="button_text">Senden</div>
+                    <div id="send_button_circle" class="button_circle color1">
+                       <img src="assets/icons/next.png" alt="">
+                    </div>     
+
+            </div>
+
+        </div>
+
+        <script src="script/three.js"></script>
+        <script src="script/inflate.min.js"></script>
+        <script src="script/fbxLoader.js"></script>
+        <script src="script/objLoader.js"></script>
+        <script src="script/main.js"></script>
+        <script src="script/3dLogo.js"></script>
+    </body>
+</html>

@@ -1,0 +1,250 @@
+/*************************************
+
+*** Fonts
+
+**************************************/
+/* exo-2-300 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/exo2/exo-2-v4-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Light"), local("Exo2-Light"), url("../fonts/exo2/exo-2-v4-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-300.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-300.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-300.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-300.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-300italic - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/exo2/exo-2-v4-latin-300italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Light Italic"), local("Exo2-LightItalic"), url("../fonts/exo2/exo-2-v4-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-300italic.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-300italic.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-300italic.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-300italic.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-regular - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/exo2/exo-2-v4-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2"), local("Exo2-Regular"), url("../fonts/exo2/exo-2-v4-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-regular.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-regular.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-regular.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-regular.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-600 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/exo2/exo-2-v4-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Semi Bold"), local("Exo2-SemiBold"), url("../fonts/exo2/exo-2-v4-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-600.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-600.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-600.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-600.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-600italic - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/exo2/exo-2-v4-latin-600italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Semi Bold Italic"), local("Exo2-SemiBoldItalic"), url("../fonts/exo2/exo-2-v4-latin-600italic.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-600italic.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-600italic.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-600italic.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-600italic.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-700 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/exo2/exo-2-v4-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Bold"), local("Exo2-Bold"), url("../fonts/exo2/exo-2-v4-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-700.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-700.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-700.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-700.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-700italic - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/exo2/exo-2-v4-latin-700italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Bold Italic"), local("Exo2-BoldItalic"), url("../fonts/exo2/exo-2-v4-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-700italic.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-700italic.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-700italic.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-700italic.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-800 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/exo2/exo-2-v4-latin-800.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Extra Bold"), local("Exo2-ExtraBold"), url("../fonts/exo2/exo-2-v4-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-800.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-800.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-800.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-800.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/* exo-2-800italic - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/exo2/exo-2-v4-latin-800italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Exo 2 Extra Bold Italic"), local("Exo2-ExtraBoldItalic"), url("../fonts/exo2/exo-2-v4-latin-800italic.eot?#iefix") format("embedded-opentype"), url("../fonts/exo2/exo-2-v4-latin-800italic.woff2") format("woff2"), url("../fonts/exo2/exo-2-v4-latin-800italic.woff") format("woff"), url("../fonts/exo2/exo-2-v4-latin-800italic.ttf") format("truetype"), url("../fonts/exo2/exo-2-v4-latin-800italic.svg#Exo2") format("svg");
+  /* Legacy iOS */ }
+/*************************************
+
+*** Variables
+
+**************************************/
+/*************************************
+
+*** mixins
+
+**************************************/
+/*************************************
+
+*** Components and Classes
+
+**************************************/
+/*************************************
+*** Button
+**************************************/
+.custom_button {
+  grid-area: button;
+  align-self: flex-end;
+  width: 175px;
+  height: 45px;
+  color: #343540;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 1fr 43px;
+  align-content: center; }
+  .custom_button .button_text {
+    width: auto;
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 25px; }
+  .custom_button .button_circle {
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .custom_button .button_circle img {
+      margin-left: 2px;
+      height: 18px;
+      width: 20px; }
+
+/*************************************
+*** Material Shadows    
+**************************************/
+.shadow_hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.shadow_hover:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.mt_shadow_1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.23); }
+
+.mt_shadow_2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.mt_shadow_3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.mt_shadow_4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.mt_shadow_5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+  /*************************************
+*** Gradients   
+**************************************/
+.gr_blau {
+  background-color: #52C3EC; }
+
+.gr_blau2 {
+  background-color: #149DC1; }
+
+.gr_blau3 {
+  background-color: #106775; }
+
+.color1 {
+  background-color: #0f7687; }
+
+.color2 {
+  background-color: #0f7687; }
+
+.color3 {
+  background-color: #0f7687; }
+
+.color4 {
+  background-color: #0f7687; }
+
+body #info {
+  display: none; }
+body #arjsDebugUIContainer {
+  display: none; }
+body #loading_overlay {
+  background-color: #032531;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body #loading_overlay .loading__container .loading__circle {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body #loading_overlay .loading__container .loading__circle .circle_outer_shadow {
+      position: absolute;
+      z-index: 100;
+      margin: 0 auto;
+      width: 244px;
+      height: 244px;
+      border-radius: 50%;
+      -moz-box-shadow: inset 0 0 10px 2px #000000;
+      -webkit-box-shadow: inset 0 0 10px 2px #000000;
+      box-shadow: inset 0 0 10px 2px #000000; }
+    body #loading_overlay .loading__container .loading__circle .circle_inner_shadow {
+      position: absolute;
+      z-index: 101;
+      margin: 0 auto;
+      width: 204px;
+      height: 204px;
+      border-radius: 50%;
+      -moz-box-shadow: 0px 0px 10px 2px #000000;
+      -webkit-box-shadow: 0px 0px 10px 2px #000000;
+      box-shadow: 0px 0px 10px 2px #000000; }
+    body #loading_overlay .loading__container .loading__circle .loading___logo {
+      width: 200px;
+      height: 200px; }
+    body #loading_overlay .loading__container .loading__circle .pieChart {
+      position: absolute;
+      top: 0;
+      transform: rotate(-90deg);
+      border-radius: 5%;
+      margin: 0px; }
+    body #loading_overlay .loading__container .loading__circle .pie {
+      margin: 0 auto;
+      stroke-width: 8;
+      animation-fill-mode: forwards;
+      animation: fillPie 6s ease; }
+    body #loading_overlay .loading__container .loading__circle #pie2 {
+      stroke-dasharray: 302 300; }
+@keyframes fillPie {
+  from {
+    stroke-dasharray: 0 300; } }
+  body #loading_overlay .loading__container .loading__percent {
+    position: relative; }
+
+/*# sourceMappingURL=overlay.css.map */

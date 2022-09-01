@@ -1,0 +1,13 @@
+/*************************************
+
+*** mixins
+
+**************************************/
+
+@mixin bg-gradient($left_color, $right_color){
+    background: $left_color;
+    background: -moz-linear-gradient(left, $left_color 0%,  $right_color 100%);
+    background: -webkit-linear-gradient(left, $left_color 0%, $right_color 100%);
+    background: linear-gradient(to right, $left_color 0%, $right_color 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$left_color, endColorstr=$right_color,GradientType=1 );
+}
